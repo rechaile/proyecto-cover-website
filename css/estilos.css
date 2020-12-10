@@ -1,0 +1,435 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 0;
+}
+
+/**Estilos generales**/
+
+body {
+    background-color: whitesmoke;
+    }
+
+h1{
+    color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%;
+    padding: 16px;
+    }
+
+h2 {
+    color: #000066;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    padding: 16px;
+    text-align: left;
+}
+
+
+h3 {
+    color: #1977F3;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    padding: 16px;
+    text-align: left;
+}
+
+p{
+    color: #000620;
+    font-style: normal;
+    font-size: large;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    line-height: auto;
+    font-size: 1rem;
+    padding: 16px;
+    text-align: left;
+}
+
+ul{
+    list-style-type: none;
+    padding: 8px;
+    margin: 8px;
+    text-align: center;
+}
+
+.carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+
+/**Estilos Header**/
+
+.link_logo {
+    text-decoration: none;
+    border: none; 
+    padding: 8px;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+.link_logo img {
+    max-width: 180px;
+    padding: 8px;
+    margin: 8px;
+    display: block;
+    transition: transform 0.5s ease-in-out;
+}
+
+.link_logo img:hover {
+    max-width: 180px;
+    padding: 8px;
+    margin: 8px;
+    display: block;
+    transform: scale(1.1);
+}
+
+.buscador {
+    padding: 8px;
+    margin: 8px 0;
+    border: none;
+   }
+   
+.buscador .buscar  {
+    width: 48px;
+    height:32px;
+    background-color:#000066;
+    color: white; 
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.5s ease-out;
+   }
+   
+.buscador .buscar:hover {
+    width: 48px;
+    height:32px;
+    background-color: #1977F3;
+    color: white; 
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}   
+
+.buscador .barra {
+    width: 100px;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+    font-size: 12px;
+    border: none; 
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: width 0.5s ease-in-out;
+}
+
+.buscador .barra:focus {
+    width: 70%;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 8px;
+    font-size: 12px;
+    border: none; 
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    outline: none;
+    }
+
+
+nav ul a {
+    color: #000066; 
+    font-size: 14px;
+    background-color: whitesmoke; 
+    border-bottom: 2px solid  rgb(0, 0, 102, 0);
+    font-style: normal;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif; 
+    padding: 8px;
+    text-decoration: none;
+    transition: border 0.3s ease-in;
+    text-align: center;
+    }
+
+nav ul a:visited {
+    color:#000066; 
+    font-size: 14px;
+    background-color: whitesmoke; 
+    font-style: normal;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif; 
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+   }
+
+nav ul a:hover {
+    color: #000066;
+    background-color: whitesmoke; 
+    font-size: 14px;
+    border-bottom: 2px solid  rgb(0, 0, 102, 1); 
+    font-style: normal;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif; 
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+nav ul a:active {
+    background-color:whitesmoke;
+    color: #1977F3;
+    font-size: 14px;
+    border: none; 
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif; 
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/**Estilos del Main Index**/
+
+.catalogox4 img {
+    width: 45%;
+    padding: 16px;
+    margin: 8px;
+    transition: transform 0.3s ease-out;
+    }
+
+.catalogox4 img:hover {
+    width: 45%;
+    padding: 16px;
+    margin: 8px;
+    transform: scale(1.1);
+    }
+
+.catalogox4 .titulos-badge {
+    color: #1977F3;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/**Estilos del Main Productos y Compañias**/
+.catalogox6 img{
+    padding:0;
+    margin:32px;
+}
+
+.catalogox6 img {
+    transition: transform 0.3s ease-out;
+}
+
+.catalogox6 img:hover {
+  transform: scale(1.2)
+}
+
+/**Estilos del Main Sobre Nosotros**/
+
+.fotos_about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1440px;
+} 
+
+.fotos_about img {
+    width: 100%;
+    padding: 16px;
+}
+
+/**Estilos del Main Formulario de Contacto**/
+
+.formulario {
+    background-color: #000066;
+    color: white;
+    padding: 16px;
+    border-radius: 8px
+    }
+
+.formulario h4 {
+    color:#ffffff;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding: 8px;
+    }
+
+.datos-personales input {
+    width: 200px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 8px;
+    color: rgba(0, 0, 0, 0.6);
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+    border: none;
+    }
+
+.datos-personales label{
+    display: block;
+    padding: 8px;
+}
+
+.consulta label {
+    display: inline;
+    padding: 16px;
+    margin: 8px;
+}
+
+.consulta textarea {
+    display: block;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+    color: rgba(0, 0, 0, 0.6);
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+    border: none;
+}
+
+.consulta .button {
+    display: block;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+    color: rgba(0, 0, 0, 0.6);
+    font-style: normal;
+    font-size: larger;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+    border: none;
+
+}
+
+.consulta .button:active {
+    display: block;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+    color:#ffffff;
+    font-style: normal;
+    font-size: larger;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1977F3;
+    border: none;
+
+}
+
+label {
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.acepto {
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    padding: 8px;
+}
+
+/**Estilos del footer**/
+
+.pie {
+    max-width: 100%;
+    margin:16px 0 0;
+    background: linear-gradient(-45deg, #000620, #000066, #1977F3);
+    background-size: 200% 200%;
+    padding: 32px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.2);
+    animation-name: footer-gradient;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+   }
+
+.pie p {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    }
+
+.pie i {
+    width: 32px;
+    transform: scale(1.5);
+    padding: 0;
+    margin:0;
+    color: white;
+    transition: color 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+}
+
+.pie i:hover {
+    width: 32px;
+    transform: scale(1.7);
+    padding:0;
+    margin:0;
+    color: rgb(255, 217, 0);
+}
+
+.pie p {
+    margin:0;
+    padding:0;
+    }
+
+.pie a{
+    margin:0;
+    padding:0;
+
+}
+
+
+/** Animaciones**/
+@keyframes footer-gradient {
+    
+    0% {
+        background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
