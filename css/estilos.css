@@ -210,6 +210,10 @@ nav ul a:active {
 
 /**Estilos del Main Index**/
 
+.bienvenida {
+    text-align: center;
+}
+
 .catalogox4 img {
     width: 45%;
     padding: 16px;
