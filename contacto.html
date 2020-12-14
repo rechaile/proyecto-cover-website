@@ -115,12 +115,18 @@
                                 <input type="radio" name="cliente" value="no" id="no">
                             </div>
                             
-                            <div class="consulta container-fluid">
+                            <div class="consulta">
                                 <h4>Consulta</h4>
-                                <textarea name="consulta" placeholder="Escriba aquí su consulta" cols="60" rows="15" required></textarea>
-                                
-                                <label for="acepto" class="acepto">Acepto los términos de uso y manejo de mi información</label>
-                                <input type="checkbox" name="acepto" value="si" id="acepto" required> 
+                                <div class="container-fluid">
+                                    <textarea class="w-100" name="consulta" placeholder="Escriba aquí su consulta" cols="60" rows="10" required></textarea>
+                                </div>
+
+                                <div>
+                                    <label for="acepto" class="acepto">Acepto los términos de uso y manejo de información</label>
+                                    
+                                    <input type="checkbox" name="acepto" value="si" id="acepto" required>
+                                </div>
+                                  
                             
                                 <input class="button" type="submit" value="Enviar consulta">
                             </div>
